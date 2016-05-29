@@ -1,0 +1,45 @@
+<scene>
+
+<!--
+  <text start="@5" duration="inherit">
+    My Dad
+  </text>
+-->
+
+  <audio src="/2016/02/22/theboxer.mp3" volume="0.3"
+         photo-effect="fadeIn(0.2); E-.2:fadeOut(0.2)">
+    {%- for i in f_range(75) %}
+      <photo src="/dad/dadshow-sprite.png" 
+             duration="{{f_easeIn(i, 75, 0.5, 3.0)}}" 
+             spritedim="600,400" sprite="{{i}}"/>
+    {%- endfor %}
+  </audio>
+
+  <audio src="/2016/02/22/dad.mp3" volume="1.0"
+         photo-effect="fadeIn(1.0); E-0.5:fadeOut(1.0)">
+    <photo src="/2016/02/22/dad0.jpg" />
+    <photo src="/2016/02/22/dad1.jpg" />
+    <photo src="/2016/02/22/dad2.jpg" start="+0.5"/>
+    <photo src="/2016/02/22/dad3.jpg" />
+    <photo src="/2016/02/22/dad4.jpg" start="36"/>
+    <photo src="/2016/02/22/dad5.jpg" />
+    <photo src="/2016/02/22/dad6.jpg" start="-0.5"/>
+    <photo src="/2016/02/22/dad7.jpg" />
+    <photo src="/2016/02/22/dad8.jpg" />
+    <photo src="/2016/02/22/dad9.jpg" />
+    <photo src="/2016/02/22/dad10.jpg" />
+    <photo src="/2016/02/22/dad11.jpg" />
+    <photo src="/2016/02/22/dad12.jpg" />
+    <photo src="/2016/02/22/dad13.jpg" />
+    <photo src="/2016/02/22/dad14.jpg" />
+    <photo src="/2016/02/22/dad15.jpg" />
+    <photo src="/2016/02/22/dad16.jpg" />
+    <photo src="/2016/02/22/dad17.jpg" />
+    <photo src="/2016/02/22/dad18.jpg" />
+    <photo src="/2016/02/22/dad19.jpg" />
+    <photo src="/2016/02/22/dad20.jpg" />
+    <photo src="/2016/02/22/dad21.jpg" />
+    <photo src="/2016/02/22/dad22.jpg" />
+  </audio>
+
+</scene>
