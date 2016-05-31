@@ -1,10 +1,11 @@
 <scene>
 
-<!--
-  <text start="@5" duration="inherit">
-    My Dad
-  </text>
--->
+  <sceneprops>
+    <title>My Dad and the home I grew up in </title>
+    <description>
+    </description>
+    <sceneshot src="/2016/02/22/dad22.jpg"/>
+  </sceneprops>
 
   <audio src="/2016/02/22/theboxer.mp3" volume="0.3"
          photo-effect="fadeIn(0.2); E-.2:fadeOut(0.2)">
