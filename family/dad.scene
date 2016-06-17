@@ -11,7 +11,7 @@
          photo-effect="fadeIn(0.2); E-.2:fadeOut(0.2)">
     {%- for i in f_range(75) %}
       <photo src="/dad/dadshow-sprite.png" 
-             duration="{{f_easeIn(i, 75, 1.5, 10.0)}}" 
+             duration="{{f_easeIn(i, 75, 1.8, 11.0)}}" 
              spritedim="600,400" sprite="{{i}}"/>
     {%- endfor %}
   </audio>
